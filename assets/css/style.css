@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.common-btn{
+    background-color: cadetblue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    color: #fff;
+}
+.title{
+    font-size: 28px;
+}
+.title span{
+    color: yellow;
+}
+.title-border-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, tomato, tomato);
+    border-image-slice: 1;
+    border-radius: 30px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header-left{
+    float: left;
+    width: 50%;
+}
+.header-right{
+    width: 50%;
+    float: left;
+}
+.header-right img{
+    width: 80%;
+}
+.col-3{
+    width: 30%;
+    float: left;
+    margin: 0 1%;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+.col-3 img{
+    width: 70%;
+}
+.mission{
+    background-color: red;
+}
+.vission{
+    background-color: yellow;
+}
+.goal{
+    background-color: brown;
+}
